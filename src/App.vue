@@ -37,6 +37,7 @@ h1, h2 {
   color: black;
   margin-top: 60px;
 }
+
 .main {
   max-width: 80%;
   min-height: 500px;
@@ -46,4 +47,9 @@ h1, h2 {
   color: white;
   padding: 10px 40px;
 }
+
+.content-box {
+  padding-bottom: 30px;
+}
+
 </style>

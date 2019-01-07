@@ -15,6 +15,10 @@ new Vue({
       'John Doh',
       'Thomas',
       'Maha'
+    ],
+    result: [
+      ['Jenny', 'Thomas'],
+      ['Maha', 'John Doh']
     ]
   },
   router,

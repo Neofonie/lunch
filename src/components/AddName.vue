@@ -12,13 +12,17 @@ export default {
   data () {
     return {
       names: this.$root.$data.names,
-      placeHolderValue: 'Add a new name',
+      placeHolderValue: 'Neuer Teilnehmer',
       newName: null,
       errorMessage: ''
     }
   },
   methods: {
     addName () {
+      if (this.newName === '') {
+        this.errorMessage = 'Das Namensfeld ist leer.'
+        return
+      }
       if (this.names.includes(this.newName)) {
         this.errorMessage = `Der Name "${this.newName}" ist bereits vorhanden.`
         return

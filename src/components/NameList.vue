@@ -23,8 +23,6 @@ export default {
 
 <style scoped lang="less">
 .name-list {
-    padding: 20px 0px 40px;
-
     &__title {
         display: block;
         text-decoration-line: underline;

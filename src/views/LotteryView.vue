@@ -1,13 +1,24 @@
 <template lang ="pug">
   .lottery
-    h2 {{ title }}
-    add-name
-    name-list
+    h2.content-box {{ title }}
+    add-name.content-box
+    name-list.content-box
+    choose-names.content-box
+  //-
+    div Test
+    input-button(
+      placeHolderValue="Neuer Teilnehmer"
+      label="Hinzufügen"
+      v-bind:callbacks="{click: addNameCallback}"
+    )
+
 </template>
 
 <script>
 import AddName from '@/components/AddName'
 import NameList from '@/components/NameList'
+import ChooseNames from '@/components/ChooseNames'
+// import InputButton from '@/components/base/InputButton'
 
 export default {
   name: 'LotteryView',
@@ -16,9 +27,16 @@ export default {
       title: 'Lunch-Lotterie Demo'
     }
   },
+  /* methods: {
+    addNameCallback (value) {
+      alert(value)
+    }
+  }, */
   components: {
     AddName,
-    NameList
+    NameList,
+    ChooseNames
+    // ,InputButton
   }
 }
 </script>
