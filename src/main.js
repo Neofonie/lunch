@@ -18,6 +18,16 @@ new Vue({
     ],
     result: [
       ['Jenny', 'Thomas'],
+      ['Maha', 'John Doh'],
+      ['Jenny', 'Thomas'],
+      ['Maha', 'John Doh'],
+      ['Jenny', 'Thomas'],
+      ['Maha', 'John Doh'],
+      ['Jenny', 'Thomas'],
+      ['Maha', 'John Doh'],
+      ['Jenny', 'Thomas'],
+      ['Maha', 'John Doh'],
+      ['Jenny', 'Thomas'],
       ['Maha', 'John Doh']
     ]
   },

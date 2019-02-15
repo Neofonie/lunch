@@ -28,6 +28,7 @@ export default {
   background-color: rgba(255, 255, 255, 0.1);
   padding: 20px;
   margin-bottom: 20px;
+  line-height: 38px;
 
   &__remove-name {
     background-color: #83ffd2;

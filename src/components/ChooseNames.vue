@@ -10,7 +10,6 @@ export default {
   data () {
     return {
       names: this.$root.$data.names,
-      result: this.$root.$data.result,
       placeHolderValue: 'Anzahl Teilnehmer pro Gruppe',
       personCount: null
     }
@@ -33,7 +32,8 @@ export default {
         result.push(subGroup)
       }
       console.log(result)
-      this.result = result
+      this.$root.$data.result = result
+      this.$router.push({ name: 'll-ergebnissliste' })
     }
   },
   computed: {
