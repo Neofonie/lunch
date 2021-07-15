@@ -1,5 +1,7 @@
 # lunch
 
+## **⚠️ THIS PROJECT IS NOW UNMAINTAINED AND IN READ-ONLY MODE ⚠️**
+
 > lunch lotterie prototype
 
 ## Build Setup
